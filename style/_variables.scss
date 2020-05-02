@@ -1,0 +1,30 @@
+@font-face {
+    font-family: OldLondon;
+    src:url("/fonts/OldLondon.ttf");
+};
+
+@font-face {
+    font-family: Andalus;
+    src:url("/fonts/Andalus.ttf");
+};
+
+
+@font-face {
+    font-family: Goth2;
+    src:url("/fonts/CloisterBlack.ttf");
+};
+$gotic: OldLondon;
+$gotic2: Goth2;
+$nonGotic: Andalus;
+
+
+/* COL */
+
+
+/* HSL */
+$color1: hsla(0%, 2%, 19%, 1);
+$color2: hsla(120%, 1%, 31%, 1);
+$color3: hsla(0%, 1%, 75%, 1);
+$back: hsla(0%, 0%, 4%, 1);
+
+

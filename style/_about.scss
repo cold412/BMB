@@ -1,0 +1,68 @@
+@import 'variables';
+
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: $color3;
+    font-family: $nonGotic;
+    overflow: auto;
+    color: $color2;
+    height: 70vh;
+
+
+    .about__left{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding-right: 3vh;
+
+        h1{
+            text-align: center;;
+            padding-top: 5vh;
+            font-size: 1.7rem;
+        }
+        p{
+            text-align: justify;
+            justify-content: center;
+            font-size: 1rem;
+        }
+
+    }
+    .about__right{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding-left: 3vh;
+    }
+        h1{
+            text-align: center;;
+            padding-top: 5vh;
+            font-size: 1.7rem;
+        }
+        p{
+            text-align: center;
+            font-size: 1.2rem;
+        }
+}
+
+
+.bottom {
+    height: 7vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    padding-top: 4vh;
+    h1{
+
+    font-family: $gotic2;
+    font-weight: 100;
+    color: $color3;
+    font-size: 5rem;
+    color: $color3;
+
+
+    }
+}
