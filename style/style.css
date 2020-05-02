@@ -10,15 +10,17 @@
 };
  */
 @font-face {
-  font-family: 'cloister_blacklight';
-  src: url("/fonts/cloisterblack-webfont.woff2") format("woff2"), url("/fonts/cloisterblack-webfont.woff") format("woff");
+  font-family: 'cloister_black';
+  src: url("/fonts/cloisterblack-webfont.eot");
+  src: url("/fonts/cloisterblack-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/cloisterblack-webfont.woff2") format("woff2"), url("/fonts/cloisterblack-webfont.woff") format("woff"), url("/fonts/cloisterblack-webfont.ttf") format("truetype"), url("/fonts/cloisterblack-webfont.svg#cloister_blacklight") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'andalusregular';
-  src: url("/fonts/andalus-webfont.woff2") format("woff2"), url("/fonts/andalus-webfont.woff") format("woff");
+  font-family: 'andalus';
+  src: url("/fonts/andalus-webfont.eot");
+  src: url("/fonts/andalus-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/andalus-webfont.woff2") format("woff2"), url("/fonts/andalus-webfont.woff") format("woff"), url("/fonts/andalus-webfont.ttf") format("truetype"), url("/fonts/andalus-webfont.svg#andalusregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -71,7 +73,7 @@
   list-style: none;
   padding-left: 2rem;
   text-decoration: none;
-  font-family: andalusregular;
+  font-family: andalus;
 }
 
 .nav__center {
@@ -88,20 +90,20 @@
       -ms-flex-direction: column;
           flex-direction: column;
   color: #c0bfbf;
-  font-family: andalusregular;
+  font-family: andalus;
   grid-area: center;
   height: 80vh;
 }
 
 .nav__center__main2 h1 {
-  font-family: cloister_blacklight;
+  font-family: cloister_black;
   font-size: 4rem;
   font-weight: 100;
   color: #4e504e;
 }
 
 .nav__center__main1 h2 {
-  font-family: cloister_blacklight;
+  font-family: cloister_black;
   font-size: 3rem;
   font-weight: 100;
   color: #4e504e;
@@ -122,7 +124,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   color: #c0bfbf;
-  font-family: andalusregular;
+  font-family: andalus;
   text-align: center;
   grid-area: bottom;
   height: 4vh;
@@ -130,7 +132,7 @@
 }
 
 .nav__bottom h2 {
-  font-family: andalusregular;
+  font-family: andalus;
   font-size: 1.5rem;
   font-weight: 100;
   color: #c0bfbf;
@@ -148,15 +150,17 @@
 };
  */
 @font-face {
-  font-family: 'cloister_blacklight';
-  src: url("/fonts/cloisterblack-webfont.woff2") format("woff2"), url("/fonts/cloisterblack-webfont.woff") format("woff");
+  font-family: 'cloister_black';
+  src: url("/fonts/cloisterblack-webfont.eot");
+  src: url("/fonts/cloisterblack-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/cloisterblack-webfont.woff2") format("woff2"), url("/fonts/cloisterblack-webfont.woff") format("woff"), url("/fonts/cloisterblack-webfont.ttf") format("truetype"), url("/fonts/cloisterblack-webfont.svg#cloister_blacklight") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'andalusregular';
-  src: url("/fonts/andalus-webfont.woff2") format("woff2"), url("/fonts/andalus-webfont.woff") format("woff");
+  font-family: 'andalus';
+  src: url("/fonts/andalus-webfont.eot");
+  src: url("/fonts/andalus-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/andalus-webfont.woff2") format("woff2"), url("/fonts/andalus-webfont.woff") format("woff"), url("/fonts/andalus-webfont.ttf") format("truetype"), url("/fonts/andalus-webfont.svg#andalusregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -175,7 +179,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   color: #c0bfbf;
-  font-family: andalusregular;
+  font-family: andalus;
   overflow: auto;
   color: #4e504e;
   height: 70vh;
@@ -247,7 +251,7 @@
 }
 
 .bottom h1 {
-  font-family: cloister_blacklight;
+  font-family: cloister_black;
   font-weight: 100;
   color: #c0bfbf;
   font-size: 5rem;
