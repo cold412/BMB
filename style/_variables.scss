@@ -1,9 +1,4 @@
-@font-face {
-    font-family: OldLondon;
-    src:url("/fonts/OldLondon.ttf");
-};
-
-@font-face {
+/* @font-face {
     font-family: Andalus;
     src:url("/fonts/Andalus.ttf");
 };
@@ -13,9 +8,33 @@
     font-family: Goth2;
     src:url("/fonts/CloisterBlack.ttf");
 };
-$gotic: OldLondon;
-$gotic2: Goth2;
-$nonGotic: Andalus;
+ */
+
+
+@font-face {
+    font-family: 'cloister_blacklight';
+    src: url('/fonts/cloisterblack-webfont.woff2') format('woff2'),
+         url('/fonts/cloisterblack-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'andalusregular';
+    src: url('/fonts/andalus-webfont.woff2') format('woff2'),
+         url('/fonts/andalus-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+$gotic2: cloister_blacklight;
+$nonGotic: andalusregular;
 
 
 /* COL */
