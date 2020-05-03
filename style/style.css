@@ -9,6 +9,8 @@
     src:url("/fonts/CloisterBlack.ttf");
 };
  */
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 @font-face {
   font-family: 'cloister_black';
   src: url("../fonts/cloisterblack-webfont.eot");
@@ -139,6 +141,57 @@
   font-size: 1.5rem;
   font-weight: 100;
   color: #c0bfbf;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .footer__addr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footer__addr h5 {
+  font-size: 1.5rem;
+  color: #c0bfbf;
+  font-family: andalus;
+  font-weight: 100;
+}
+
+.socialbtns__cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.socialbtns__cont a {
+  text-decoration: none;
+  color: #c0bfbf;
+}
+
+.socialbtns__cont a:hover {
+  color: white;
+}
+
+.socialbtns__cont li {
+  list-style: none;
+  padding-left: 2rem;
+  text-decoration: none;
+  font-family: andalus;
+  font-size: 2rem;
 }
 
 @media screen and (max-width: 768px) {
