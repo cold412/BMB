@@ -1,3 +1,12 @@
+.container{
+   width: 80vw;
+   margin-left: 10vw;
+   margin-right: 10vw;
+}
+
+
+
+
 .nav{
     display: flex;
     flex-direction: row;
@@ -98,3 +107,58 @@
         color: $color3;
     }
 }
+
+.burger{
+    display: none;
+}
+
+
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: $color2;
+    margin: 5px;
+}
+
+
+@media screen and (max-width: 768px){
+  .nav__nav{
+      li{
+          font-size: 1.2rem;
+      }
+  } 
+
+  .nav__center__main2{
+      h1{
+        font-size: 2.5rem;
+        }
+}
+
+  .nav__center__main1{
+      h2{
+        font-size: 1rem;
+        }
+}
+
+    .nav__bottom{
+        h2{
+            font-size: 1rem;
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width: 1296px){
+    .container{
+        width: 100vw;
+        margin: 0;
+    }
+
+    .nav__nav {
+        flex-wrap: wrap;
+    }
+}
+
+
