@@ -13,7 +13,6 @@
     font-size: 2rem;
     justify-content: space-around;
     align-items: center;
-    grid-area: top;
     height: 8vh;
     padding-top: 4vh;
     padding-bottom: 0.5rem;
@@ -60,7 +59,6 @@
     flex-direction: column;
     color: $color3;
     font-family: $nonGotic;
-    grid-area: center;
     height: 80vh;
 
 
@@ -96,7 +94,6 @@
     color: $color3;
     font-family: $nonGotic;
     text-align: center;
-    grid-area: bottom;
     height: 4vh;
     padding-bottom: 2vh;
 
@@ -108,23 +105,20 @@
     }
 }
 
-.burger{
-    display: none;
-}
+
+   
 
 
-.burger div{
-    width: 25px;
-    height: 3px;
-    background-color: $color2;
-    margin: 5px;
-}
 
-
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px){ 
+    .nav{
+        padding-left: 1vh;
+        padding-right: 1vh;
+    }
   .nav__nav{
       li{
           font-size: 1.2rem;
+          padding-left: 0.8rem;
       }
   } 
 

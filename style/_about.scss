@@ -1,68 +1,155 @@
-@import 'variables';
-
+@import "variables";
 
 .about {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    color: $color3;
-    font-family: $nonGotic;
-    overflow: auto;
-    color: $color2;
-    height: 70vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: $color3;
+  font-family: $nonGotic;
+  overflow: auto;
+  color: $color2;
+  height: 70vh;
 
-
-    .about__left{
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-        padding-right: 3vh;
-
-        h1{
-            text-align: center;;
-            padding-top: 5vh;
-            font-size: 1.7rem;
-        }
-        p{
-            text-align: justify;
-            justify-content: center;
-            font-size: 1rem;
-        }
-
-    }
-    .about__right{
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-        padding-left: 3vh;
-    }
-        h1{
-            text-align: center;;
-            padding-top: 5vh;
-            font-size: 1.7rem;
-        }
-        p{
-            text-align: center;
-            font-size: 1.2rem;
-        }
-}
-
-
-.bottom {
-    height: 7vh;
+  .about__left {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    text-align: center;
-    padding-top: 4vh;
-    h1{
+    width: 50vw;
+    padding-right: 3vh;
+    padding-top: 5vh;
 
+    h1 {
+      text-align: center;
+      padding-top: 5vh;
+      font-size: 2.5rem;
+    }
+    p {
+      text-align: justify;
+      justify-content: center;
+      font-size: 1.2rem;
+    }
+  }
+  .about__right {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    padding-top: 5vh;
+    padding-left: 3vh;
+  }
+  h1 {
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 2.5rem;
+  }
+  p {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  padding-top: 4vh;
+  h1 {
     font-family: $gotic2;
     font-weight: 100;
     color: $color3;
     font-size: 5rem;
     color: $color3;
+  }
+}
 
+
+
+
+
+
+
+
+@media screen and (max-width: 1296px) {
+  .about {
+    margin-left: 3vw;
+    margin-right: 3vw;
+
+    .about__left {
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    .about__right {
+      p {
+        text-align: center;
+        font-size: 1.2rem;
+      }
+    }
+
+  }
+
+  .about__wrapper {
+    .bottom{
+      h1{
+        font-size: 3rem;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .nav {
+    position: fixed;
+    background-color: $back;
+  }
+
+  .about {
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding-top: 3vh;
+
+
+    .about__left{
+      width: 94vw;
+      padding-right: 0;
+      text-align: center;
+      p{
+        font-size: 1rem;
+      }
 
     }
+
+    .about__right{
+      width: 94vw;
+      padding-left: 0;
+      padding-top: 0;
+
+      h1{
+        padding-top: 0;
+      }
+      p{
+        font-size: 1.2rem;
+      }
+    }
+
+    .bottom{
+      padding-top: 0;
+      h1{
+        font-size: 3rem;
+      }
+    }
+
+
+
+  }
+
+
+
 }
