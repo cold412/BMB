@@ -1,0 +1,57 @@
+@import "variables";
+
+
+
+.reviews__main__header{
+    p{
+            padding-top: 0.5rem;
+    }
+}
+
+
+.locations{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 53vh;
+    font-family: $nonGotic;
+    color: $color2;
+    overflow: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    flex-wrap: wrap;
+    h1{
+        font-size: 2.5rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    li{
+        font-size: 1.1rem;
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: $color2;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+.locations{
+    padding-top: 1rem;
+    h1{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    li{
+        font-size: 1rem;
+    }
+}
+}
