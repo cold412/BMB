@@ -21,3 +21,25 @@
     height: 100%;
   }
 }
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .about{
+    .about__left{
+      padding-top: 0;
+      .about__left__head{
+        padding-top: 0;
+        h1{
+          padding-top: 0;
+        }
+      }
+    }
+  }
+
+
+
+}

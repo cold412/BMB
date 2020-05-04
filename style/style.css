@@ -12,6 +12,7 @@
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 @font-face {
   font-family: 'cloister_black';
   src: url("../fonts/cloisterblack-webfont.eot");
@@ -500,6 +501,127 @@
 .brews__beer img {
   width: 100%;
   height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .about .about__left {
+    padding-top: 0;
+  }
+  .about .about__left .about__left__head {
+    padding-top: 0;
+  }
+  .about .about__left .about__left__head h1 {
+    padding-top: 0;
+  }
+}
+
+/* @font-face {
+    font-family: Andalus;
+    src:url("/fonts/Andalus.ttf");
+};
+
+
+@font-face {
+    font-family: Goth2;
+    src:url("/fonts/CloisterBlack.ttf");
+};
+ */
+@font-face {
+  font-family: 'cloister_black';
+  src: url("../fonts/cloisterblack-webfont.eot");
+  src: url("../fonts/cloisterblack-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/cloisterblack-webfont.woff2") format("woff2"), url("../fonts/cloisterblack-webfont.woff") format("woff"), url("../fonts/cloisterblack-webfont.ttf") format("truetype"), url("../fonts/cloisterblack-webfont.svg#cloister_blacklight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'andalus';
+  src: url("../fonts/andalus-webfont.eot");
+  src: url("../fonts/andalus-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/andalus-webfont.woff2") format("woff2"), url("../fonts/andalus-webfont.woff") format("woff"), url("../fonts/andalus-webfont.ttf") format("truetype"), url("../fonts/andalus-webfont.svg#andalusregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* COL */
+/* HSL */
+.review__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80vh;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  overflow: auto;
+}
+
+.reviews__main__header h1 {
+  text-align: center;
+  padding-top: 5vh;
+  font-size: 2.5rem;
+  color: #4e504e;
+  font-family: andalus;
+}
+
+.reviews__main__header p {
+  padding-top: 3vh;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.2rem;
+  color: #4e504e;
+  font-family: andalus;
+}
+
+.reviews__main__list {
+  padding-top: 5vh;
+  text-align: center;
+}
+
+.reviews__main__list a {
+  font-size: 1.5rem;
+  font-family: andalus;
+  color: #4e504e;
+  text-decoration: none;
+}
+
+.reviews__main__list li {
+  list-style: none;
+  padding-top: 0.3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .review__main {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .reviews__main__header h1 {
+    padding-top: 2vh;
+    font-size: 2.5rem;
+  }
+  .reviews__main__header p {
+    padding-top: 3vh;
+    font-size: 1rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: justify;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .reviews__main__list {
+    padding-top: 2vh;
+  }
+  .reviews__main__list a {
+    font-size: 1rem;
+  }
 }
 
 * {
