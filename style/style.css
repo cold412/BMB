@@ -11,6 +11,7 @@
  */
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 @font-face {
   font-family: 'cloister_black';
   src: url("../fonts/cloisterblack-webfont.eot");
@@ -370,7 +371,8 @@
       -ms-flex-pack: end;
           justify-content: flex-end;
   text-align: center;
-  padding-top: 4vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
 }
 
 .bottom h1 {
@@ -439,6 +441,44 @@
   }
 }
 
+/* @font-face {
+    font-family: Andalus;
+    src:url("/fonts/Andalus.ttf");
+};
+
+
+@font-face {
+    font-family: Goth2;
+    src:url("/fonts/CloisterBlack.ttf");
+};
+ */
+@font-face {
+  font-family: 'cloister_black';
+  src: url("../fonts/cloisterblack-webfont.eot");
+  src: url("../fonts/cloisterblack-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/cloisterblack-webfont.woff2") format("woff2"), url("../fonts/cloisterblack-webfont.woff") format("woff"), url("../fonts/cloisterblack-webfont.ttf") format("truetype"), url("../fonts/cloisterblack-webfont.svg#cloister_blacklight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'andalus';
+  src: url("../fonts/andalus-webfont.eot");
+  src: url("../fonts/andalus-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/andalus-webfont.woff2") format("woff2"), url("../fonts/andalus-webfont.woff") format("woff"), url("../fonts/andalus-webfont.ttf") format("truetype"), url("../fonts/andalus-webfont.svg#andalusregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* COL */
+/* HSL */
+.brews__right {
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -447,5 +487,10 @@
 body {
   background-color: #0a0a0a;
   font-size: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
 /*# sourceMappingURL=style.css.map */
