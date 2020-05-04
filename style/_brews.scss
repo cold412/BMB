@@ -3,7 +3,21 @@
 
 .brews__right{
   overflow: auto;
+  display: flex;
+  align-items: center;
 }
 
 
-
+.brews__beer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .brews__image{
+    max-width: 45vh;
+    max-height: 45vh;
+  }
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
