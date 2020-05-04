@@ -1,0 +1,85 @@
+@import "variables";
+
+
+.shop__header{
+    h1{
+        font-size: 3.5rem;
+    }
+}
+
+
+
+.shop__list {
+    padding-top: 1.5rem;
+    a{
+        font-size: 2.5rem;
+    }
+
+    li{
+        padding-top: 0.3rem;
+    }
+    p{
+        font-family: $nonGotic;
+        font-size: 1.5rem;
+        color: $color2;
+    }
+}
+
+
+    .nationlink{
+        a{
+        font-size: 1.5rem;
+        }
+    }
+
+
+.download__header{
+    h1{
+
+    padding-top: 1.5rem;
+    font-size: 3.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+
+.shop__header{
+    h1{
+        font-size: 2.5rem;
+    }
+}
+
+.shop__list {
+    a{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-family: $nonGotic;
+        font-size: 1rem;
+        color: $color2;
+    }
+}
+
+.download__header{
+    h1{
+
+    font-size: 2.5rem;
+    }
+}
+
+.bottom {
+    h1{
+        font-size: 3rem;
+    }
+}
+
+}
